@@ -10,5 +10,6 @@ def calculate_grade(marks):
     else:
         return 'F'
 
-grade = int(input("Enter your marks: "))
+mark = int(input("Enter your marks: "))
+grade = calculate_grade(mark)
 print(grade)
