@@ -15,3 +15,5 @@ mobiles = [m1, m2, m3]
 
 for mobile in mobiles:
     mobile.display_info()
+
+print(MobilePhone.count)
